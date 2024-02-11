@@ -4,7 +4,8 @@ app = Flask("__name__")
 
 @app.route('/')
 def index():
-    return "Hello World! - Applied change - Inside Test1 branch"
+   return "Hello World!"
+
 
 
 if __name__ == "__main__":
